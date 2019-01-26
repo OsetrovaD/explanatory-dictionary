@@ -19,4 +19,8 @@ public class DictionaryService {
 
         return result;
     }
+
+    public Map<String, Long> getAllExplanationsBySql() {
+        return dao.getAllExplanationsBySql();
+    }
 }
